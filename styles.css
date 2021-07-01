@@ -3,70 +3,107 @@ html {
 }
 
 body {
-    width: 90%;
-    margin: 1%;
+    margin: 0%;
     display: block;
     background-color: #f8f7f2;
 }
 
-h1 {
-    font-size: 2rem;
-    margin: 1%;
+header {
+    height: 200px;
 }
 
-img {
-    width: 30%;
+header a {
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 0%;
+    padding: 1.6rem 0;
+    display: inline-block;
+    color: rgb(9, 9, 10);
+}
+
+header img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
     margin: 0%;
     display: flex;
-    justify-content:space-around;
+    z-index: -1;
+    position: absolute;
+}
+
+nav {
+    float: right;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0%;
+}
+h2 {
+    font-size: 2rem;
+    margin: 0%;
 }
 
 #Images-2 {
     height: 120%;
     width: 50%;
-    margin: 0px;
+    margin: 0%;
     display: flex;
     object-position: top;
 }
+
 #hero {
     display: flex;
     justify-content: space-around;
-    height: 50%;
+    height: 60%;
     padding: 2%;
     background-color: rgb(189, 207, 231);
 }
+
+#header-text {
+    width: 60%;
+}
 .column {
-    width: 29%;
-    height: 200%;
+    width: 30%;
+    height: 500px;
     padding: 2%;
     display: flex;
-    flex-direction: row;
+    justify-content: left;
+    flex-direction: column;
 }
+
 #columns {
     background-color: hsl(330, 37%, 97%);
+    display: flex;
 }
+
 #column-1 {
     background-color: hsl(48, 66%, 37%);
 }
+
 #column-2 {
     background-color: #dceff1;
 }
+
 #column-3 {
     background-color: #f5bd7e;
 }
+
 form {
     margin: 5% auto;
     width: 70%;
 }
+
 .form-item {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding: 2%;
 }
 
 .form-item label {
-    flex-basis: 100%;
+    /* flex-basis: 100%; */
     font-size: 60%;
 }
 
