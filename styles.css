@@ -34,11 +34,12 @@ header img {
 
 nav {
     float: right;
+    padding: 1%;
 }
 
 h1 {
     font-size: 2rem;
-    margin: 0%;
+    margin: 1%;
 }
 h2 {
     font-size: 2rem;
@@ -46,7 +47,7 @@ h2 {
 }
 
 #Images-2 {
-    height: 120%;
+    height: 110%;
     width: 50%;
     margin: 0%;
     display: flex;
@@ -57,7 +58,7 @@ h2 {
     display: flex;
     justify-content: space-around;
     height: 60%;
-    padding: 2%;
+    padding: 1%;
     background-color: rgb(189, 207, 231);
 }
 
@@ -65,8 +66,8 @@ h2 {
     width: 60%;
 }
 .column {
-    width: 30%;
-    height: 500px;
+    width: 40%;
+    height: 220px;
     padding: 2%;
     display: flex;
     justify-content: left;
@@ -79,7 +80,7 @@ h2 {
 }
 
 #column-1 {
-    background-color: hsl(48, 66%, 37%);
+    background-color: rgb(228, 202, 99);
 }
 
 #column-2 {
@@ -91,8 +92,8 @@ h2 {
 }
 
 form {
-    margin: 5% auto;
-    width: 70%;
+    margin: 3% auto;
+    width: 60%;
 }
 
 .form-item {
@@ -104,7 +105,7 @@ form {
 
 .form-item label {
     /* flex-basis: 100%; */
-    font-size: 60%;
+    font-size: 80%;
 }
 
 .form-item input,
@@ -126,7 +127,8 @@ form {
     border: 2px solid rgb(158, 220, 228);
     background-color: #eceadd;
     padding: 1%;
-    font-size: 60%;
+    font-size: 80%;
+    display: flex;
 }
 
 .form-item button:hover {
@@ -140,8 +142,10 @@ form {
 }
 
 #Linkedin {
+    margin: 10px auto0px auto;
     width: 2%;
-    height: 2%;
+    display: flex;
+    object-position: middle;
 }
 
 #Facebook {
@@ -153,5 +157,16 @@ footer {
     text-align: center;
     background-color: #bbbcbe73;
     padding: 1%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: rgb(15, 14, 14);
+}
+
+@media (min-width: 500px) { 
+       div {  
+            display: inline-block;
+            width: 44%;   
+        }
 }
