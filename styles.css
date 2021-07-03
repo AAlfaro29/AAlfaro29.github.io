@@ -16,7 +16,7 @@ header a {
     font-size: 1rem;
     text-decoration: none;
     margin: 0%;
-    padding: 1.6rem 0;
+    padding: 1.2rem 0;
     display: inline-block;
     color: rgb(9, 9, 10);
 }
@@ -30,6 +30,11 @@ header img {
     display: flex;
     z-index: -1;
     position: absolute;
+}
+
+div {  
+    display: inline-block;
+    width: 44%;   
 }
 
 nav {
@@ -47,7 +52,6 @@ h2 {
 }
 
 #Images-2 {
-    height: 110%;
     width: 50%;
     margin: 0%;
     display: flex;
@@ -66,8 +70,8 @@ h2 {
     width: 60%;
 }
 .column {
-    width: 40%;
-    height: 220px;
+    width: 30%;
+    height: 200px;
     padding: 2%;
     display: flex;
     justify-content: left;
@@ -77,6 +81,7 @@ h2 {
 #columns {
     background-color: hsl(330, 37%, 97%);
     display: flex;
+    flex-direction: row;
 }
 
 #column-1 {
@@ -141,16 +146,19 @@ form {
     width: 10%;
 }
 
-#Linkedin {
-    margin: 10px auto0px auto;
-    width: 2%;
+#contacts {
     display: flex;
-    object-position: middle;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+#Linkedin {
+        width: 30%; 
 }
 
 #Facebook {
-        width: 2%;
-        height: 2%;
+        width: 30%;
 }
 
 footer {
@@ -164,9 +172,13 @@ footer {
     color: rgb(15, 14, 14);
 }
 
-@media (min-width: 500px) { 
-       div {  
-            display: inline-block;
-            width: 44%;   
-        }
+@media (max-width: 900px) { 
+        #contacts{
+            background-color: orangered;
+        } 
+}
+
+@media (max-width: 600px) { 
+    #contacts{
+        background-color:purple;     
 }
