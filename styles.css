@@ -40,6 +40,7 @@ div {
 nav {
     float: right;
     padding: 1%;
+    margin: 1%;
 }
 
 h1 {
@@ -71,7 +72,7 @@ h2 {
 }
 .column {
     width: 30%;
-    height: 200px;
+    height: 240px;
     padding: 2%;
     display: flex;
     justify-content: left;
@@ -175,10 +176,25 @@ footer {
 @media (max-width: 900px) { 
         #contacts{
             background-color: orangered;
+        }
+        .column {
+            height: 460px;
+            }
+        .form-item button {
+            width: 20%;
         } 
-}
+    }
 
 @media (max-width: 600px) { 
-    #contacts{
-        background-color:purple;     
+        #contacts{
+            background-color:purple;
+            height: 100px;
+
+        } 
+        .column {
+            height: 730px;
+        }
+        .form-item button {
+            width: 30%;
+        } 
 }
